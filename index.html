@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SEW THE SOUND - Process Visualization</title>
+    <meta name="description" content="Visualizing the process of converting sound to embroidery.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Noto+Sans+JP:wght@400;500;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="background-container">
+        <div class="morph-shape shape-1"></div>
+        <div class="morph-shape shape-2"></div>
+    </div>
+
+    <header class="main-header">
+        <h1 class="main-title">SEW THE SOUND</h1>
+        <p class="subtitle">Process Visualization</p>
+    </header>
+
+    <main class="process-container">
+
+        <!-- STEP 01 -->
+        <section class="step-card" id="step-1">
+            <div class="card-top-line"></div>
+            <div class="step-content">
+                <div class="step-header-group">
+                    <span class="step-number">STEP 01</span>
+                    <h2 class="step-title">RECORDING</h2>
+                    <p class="step-japanese">記憶を録る</p>
+                </div>
+
+                <div class="visual-area" id="visual-recording">
+                    <div class="pulse-container">
+                        <div class="pulse-circle"></div>
+                        <div class="pulse-circle delay-1"></div>
+                        <div class="mic-icon-modern">
+                            <svg viewBox="0 0 24 24" fill="none" class="icon-svg-white">
+                                <path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z" stroke="currentColor"
+                                    stroke-width="2" />
+                                <path d="M19 10v2a7 7 0 0 1-14 0v-2" stroke="currentColor" stroke-width="2" />
+                                <line x1="12" y1="19" x2="12" y2="23" stroke="currentColor" stroke-width="2" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="step-text-group">
+                    <p class="catch-copy">あなたの「今」を吹き込む</p>
+                    <p class="description">
+                        専用マイクに向かって、好きな言葉や大切の人への想いを3秒間。<br>
+                        笑い声、赤ちゃんの泣き声、その場の空気感までもがデザインの源になります。
+                    </p>
+                    <p class="note">二度と再現できない、あなたという存在が放つ「音の指紋」です。</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Connector 1-2 -->
+        <div class="connector-line" id="conn-1-2">
+            <svg class="line-svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+                <path class="connection-path-bg" d="M0,50 L100,50" />
+                <path class="connection-path-flow" d="M0,50 L100,50" />
+            </svg>
+        </div>
+
+        <!-- STEP 02 -->
+        <section class="step-card" id="step-2">
+            <div class="card-top-line"></div>
+            <div class="step-content">
+                <div class="step-header-group">
+                    <span class="step-number">STEP 02</span>
+                    <h2 class="step-title">CONVERSION</h2>
+                    <p class="step-japanese">デザインへの昇華</p>
+                </div>
+
+                <div class="visual-area" id="visual-conversion">
+                    <div class="conversion-bridge">
+                        <div class="data-particles-src">
+                            <div class="p-data"></div>
+                            <div class="p-data"></div>
+                            <div class="p-data"></div>
+                        </div>
+                        <div class="process-core">
+                            <div class="core-box"></div>
+                        </div>
+                        <div class="thread-output">
+                            <div class="p-thread"></div>
+                            <div class="p-thread"></div>
+                            <div class="p-thread"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="step-text-group">
+                    <p class="catch-copy">見えない音を、美しい輪郭へ</p>
+                    <p class="description">
+                        独自アルゴリズムが0.1秒単位で周波数や振幅を解析。<br>
+                        声の高さ、揺らぎ、吐息。そのすべての音を3つの多角的なパラメーターへ分解・再構成し、「世界に一つだけの刺繍データ」へ変換します。
+                    </p>
+                    <p class="note">最新のテクノロジーと温かなクラフトが交差する、唯一無二の瞬間。</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Connector 2-3 -->
+        <div class="connector-line" id="conn-2-3">
+            <svg class="line-svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+                <path class="connection-path-bg" d="M0,50 L100,50" />
+                <path class="connection-path-flow" d="M0,50 L100,50" />
+            </svg>
+        </div>
+
+        <!-- STEP 03 -->
+        <section class="step-card" id="step-3">
+            <div class="card-top-line"></div>
+            <div class="step-content">
+                <div class="step-header-group">
+                    <span class="step-number">STEP 03</span>
+                    <h2 class="step-title">LIVE EMBROIDERY</h2>
+                    <p class="step-japanese">命を吹き込む</p>
+                </div>
+
+                <div class="visual-area" id="visual-embroidery-final">
+                    <div class="sewing-machine-visual">
+                        <!-- Horizontal Stitches -->
+                        <div class="stitch-container">
+                            <svg class="horizontal-stitch-svg" viewBox="0 0 200 100" preserveAspectRatio="none">
+                                <path class="horizontal-stitch-line" d="M100,50 L-100,50" />
+                            </svg>
+                        </div>
+                        <!-- Centered Needle -->
+                        <div class="sewing-needle-group">
+                            <div class="sewing-needle"></div>
+                        </div>
+                        <!-- Fabric texture overlay hinted by border/bg -->
+                    </div>
+                </div>
+
+                <div class="step-text-group">
+                    <p class="catch-copy">目の前で、音は実体を持つ</p>
+                    <p class="description">
+                        刺繍ミシンが、あなたの目の前で、力強くかつ繊細に「音の形」をアイテムに定着させます。<br>
+                        カタカタと響く心地よい音と共に、空気だった声が実体を持ち始めます。
+                    </p>
+                    <p class="note">完成まで約15〜20分。その場ですべて完結します。</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Detailed Tech & Experience Section -->
+    <section class="tech-experience-section">
+        <div class="section-content">
+            <div class="tech-grid">
+                <div class="tech-item item-large">
+                    <span class="tech-label">Sound to Stitch Algorithm</span>
+                    <h3 class="tech-title">音を波形に変換する<br>アルゴリズム</h3>
+                    <p class="tech-desc">
+                        声の「周波数」「振幅」「間」を0.1秒単位で解析し、刺繍のステッチ密度と糸の送りに変換する独自アルゴリズムを開発。
+                        「時系列の振動」「周波数の密度」「物理的な衝撃」を司る3つの波形は、3色の糸として幾重にも編み込まれ、声の記憶を圧倒的な密度を持つテクスチャへと変容させていきます。
+                        デジタルな波形データが、物理的な糸の重なりへと変換される瞬間、そこには偶然性と必然性が同居するアートが生まれます。
+                    </p>
+                </div>
+                <div class="tech-item item-visual">
+                    <div class="visual-circle">
+                        <div class="circle-wave"></div>
+                        <div class="circle-wave delay-1"></div>
+                        <div class="circle-wave delay-2"></div>
+                    </div>
+                </div>
+                <div class="tech-item item-small">
+                    <span class="tech-label">Touch the Voice</span>
+                    <h3 class="tech-title">音を見て、触れる</h3>
+                    <p class="tech-desc">
+                        完成した刺繍は、目で見て、指で触れることができます。
+                        大切な人の声、忘れられない瞬間を「手触り」として残す。
+                        それは、録音データを聞き返すのとは全く違う、全く異なる、新しい記憶の保存のカタチ。
+                        「音に触れる」という魔法を、その手に。
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="main-footer">
+        <a href="https://audiowaves-visual-logic.jogimagi.com/" class="cta-link-button">
+            <span class="cta-main">EXPLORE THE 3 WAVEFORMS</span>
+            <span class="cta-sub">3つの波形について詳しく知る</span>
+        </a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
